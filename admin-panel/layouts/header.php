@@ -19,7 +19,9 @@
 <div id="wrapper">
     <nav class="navbar header-top fixed-top navbar-expand-lg  navbar-dark bg-dark">
       <div class="container">
-      <a class="navbar-brand" href="#">LOGO</a>
+      <a class="navbar-brand" href="<?php echo ADMINURL; ?>">
+        <img src="<?php echo ADMINURL; ?>/../images/LOGO.png" alt="Logo" style="height: 24px;">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
